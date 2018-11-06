@@ -1,0 +1,21 @@
+﻿Build started 14/07/2017 14:24:58.
+     1>Project "C:\OpenHaptics\Developer\3.4.0\Quickhaptics\examples\ComplexScene\ComplexSceneGLUT\ComplexSceneGLUT_2010.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\ComplexSceneGLUT.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\OpenHaptics\Developer\3.4.0\Quickhaptics\examples\Release\ComplexSceneGLUT.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\OpenHaptics\Developer\3.4.0\lib\Win32\Release /LIBPATH:C:\OpenHaptics\Developer\3.4.0\utilities\lib\Win32\Release /LIBPATH:C:\OpenHaptics\Developer\3.4.0\QuickHaptics\lib\Win32\Release QHGLUTWrapper.lib QH.lib glut32.lib hd.lib hdu.lib hl.lib hlu.lib OpenGL32.lib glu32.lib "C:\Program Files (x86)\freeglut\lib\freeglut.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ComplexSceneGLUT.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\OpenHaptics\Developer\3.4.0\Quickhaptics\examples\Release\ComplexSceneGLUT.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\OpenHaptics\Developer\3.4.0\Quickhaptics\examples\Release\ComplexSceneGLUT.lib" /MACHINE:X86 Release\main.obj
+         Generating code
+         Finished generating code
+         ComplexSceneGLUT_2010.vcxproj -> C:\OpenHaptics\Developer\3.4.0\Quickhaptics\examples\Release\ComplexSceneGLUT.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\OpenHaptics\Developer\3.4.0\Quickhaptics\examples\Release\ComplexSceneGLUT.exe;#1" /manifest Release\ComplexSceneGLUT.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\ComplexSceneGLUT.unsuccessfulbuild".
+         Touching "Release\ComplexSceneGLUT.lastbuildstate".
+     1>Done Building Project "C:\OpenHaptics\Developer\3.4.0\Quickhaptics\examples\ComplexScene\ComplexSceneGLUT\ComplexSceneGLUT_2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.53
