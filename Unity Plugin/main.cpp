@@ -3,15 +3,22 @@
 LEO_API void init() {
 
 	HHD hHD = hdInitDevice(HD_DEFAULT_DEVICE);
-	//hdEnable(HD_FORCE_OUTPUT);
+
 	if (HD_DEVICE_ERROR(hdGetError())) {
 
 		exit(-1);
 
 	}
+	hdEnable(HD_FORCE_OUTPUT);
+	hdStartScheduler();
+	hdMakeCurrentDevice(hHD);
 
-	HHLRC hHLRC = hlCreateContext(hHD);
-	hlMakeCurrent(hHLRC);
+	if (!hdIsEnabled(HD_FORCE_OUTPUT)) {
+
+		hdEnable(HD_FORCE_OUTPUT);
+
+	}
 
 
 }
+

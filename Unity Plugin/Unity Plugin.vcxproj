@@ -108,12 +108,12 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Admin\Documents\unity-haptic-plugin\freeglut\include;C:\Users\Admin\Documents\unity-haptic-plugin\OpenHaptics\Developer\3.4.0\utilities\include;C:\Users\Admin\Documents\unity-haptic-plugin\OpenHaptics\Developer\3.4.0\Quickhaptics\header;C:\Users\Admin\Documents\unity-haptic-plugin\OpenHaptics\Developer\3.4.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\freeglut\include;$(SolutionDir)..\OpenHaptics\Developer\3.4.0\utilities\include;$(SolutionDir)..\OpenHaptics\Developer\3.4.0\Quickhaptics\header;$(SolutionDir)..\OpenHaptics\Developer\3.4.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>C:\Users\Admin\Documents\unity-haptic-plugin\freeglut\lib\x64;C:\Users\Admin\Documents\unity-haptic-plugin\OpenHaptics\Developer\3.4.0\utilities\lib\x64\Release;C:\Users\Admin\Documents\unity-haptic-plugin\OpenHaptics\Developer\3.4.0\Quickhaptics\lib\x64\Release;C:\Users\Admin\Documents\unity-haptic-plugin\OpenHaptics\Developer\3.4.0\lib\x64\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\freeglut\lib\x64;$(SolutionDir)..\OpenHaptics\Developer\3.4.0\utilities\lib\x64\Release;$(SolutionDir)..\OpenHaptics\Developer\3.4.0\Quickhaptics\lib\x64\Release;$(SolutionDir)..\OpenHaptics\Developer\3.4.0\lib\x64\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>hd.lib;hl.lib;QH.lib;QHGLUTWrapper.lib;QHWin32Wrapper.lib;glui32.lib;glut32.lib;hdu.lib;hlu.lib;HapticMouse.lib;SnapConsraints.lib;freeglut.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

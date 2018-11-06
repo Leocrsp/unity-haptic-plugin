@@ -37,6 +37,7 @@
   <PropertyGroup Label="Globals">
     <ProjectName>HelloHapticDevice</ProjectName>
     <ProjectGuid>{19BD8D70-0589-466A-9452-11571C8A4335}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">

@@ -37,6 +37,7 @@
   <PropertyGroup Label="Globals">
     <ProjectName>ServoLoopDutyCycle</ProjectName>
     <ProjectGuid>{35FDC3A4-5D0E-4BB1-99F4-42DBA4F0ED06}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

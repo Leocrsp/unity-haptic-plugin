@@ -37,6 +37,7 @@
   <PropertyGroup Label="Globals">
     <ProjectName>CommandMotorDAC</ProjectName>
     <ProjectGuid>{41ABEF98-FAA1-43B0-AD25-D316415607BB}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">

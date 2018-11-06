@@ -37,6 +37,7 @@
   <PropertyGroup Label="Globals">
     <ProjectName>PreventWarmMotors</ProjectName>
     <ProjectGuid>{F7CDC945-1D6E-42FD-9C2C-5B3063C970E6}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
