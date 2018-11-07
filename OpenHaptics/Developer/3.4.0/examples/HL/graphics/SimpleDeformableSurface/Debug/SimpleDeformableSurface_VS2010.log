@@ -1,0 +1,16 @@
+﻿Build started 07/11/2018 09:50:00.
+     1>Project "C:\Users\Admin\Documents\unity-haptic-plugin\OpenHaptics\Developer\3.4.0\examples\HL\graphics\SimpleDeformableSurface\SimpleDeformableSurface_VS2010.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching ".\Debug\SimpleDeformableSurface.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /IC:\OpenHaptics\Developer\3.4.0\include /IC:\OpenHaptics\Developer\3.4.0\utilities\include /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _CONSOLE /D FLOAT_DYNREAL /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt draw_string.cpp main.cpp
+         draw_string.cpp
+     1>c:\users\admin\documents\unity-haptic-plugin\openhaptics\developer\3.4.0\examples\hl\graphics\simpledeformablesurface\draw_string.cpp(26): fatal error C1083: Cannot open include file: 'GL/glut.h': No such file or directory
+         main.cpp
+     1>c:\users\admin\documents\unity-haptic-plugin\openhaptics\developer\3.4.0\examples\hl\graphics\simpledeformablesurface\main.cpp(33): fatal error C1083: Cannot open include file: 'GL/glut.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\Admin\Documents\unity-haptic-plugin\OpenHaptics\Developer\3.4.0\examples\HL\graphics\SimpleDeformableSurface\SimpleDeformableSurface_VS2010.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.42

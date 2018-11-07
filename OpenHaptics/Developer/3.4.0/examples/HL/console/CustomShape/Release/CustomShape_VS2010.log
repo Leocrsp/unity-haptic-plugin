@@ -1,0 +1,38 @@
+﻿Build started 07/11/2018 09:37:40.
+     1>Project "C:\Users\Admin\Documents\unity-haptic-plugin\OpenHaptics\Developer\3.4.0\examples\HL\console\CustomShape\CustomShape_VS2010.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\CustomShape.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\OpenHaptics\Developer\3.4.0\include /IC:\OpenHaptics\Developer\3.4.0\utilities\include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CustomShape.cpp HapticRings.cpp HapticSphere.cpp
+         CustomShape.cpp
+     1>CustomShape.cpp(64): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : see declaration of 'getch'
+     1>CustomShape.cpp(93): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>CustomShape.cpp(94): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>CustomShape.cpp(256): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : see declaration of 'getch'
+         HapticRings.cpp
+         HapticSphere.cpp
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release/CustomShape.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\OpenHaptics\Developer\3.4.0\lib\Win32\Release /LIBPATH:C:\OpenHaptics\Developer\3.4.0\utilities\lib\Win32\Release /LIBPATH:C:\OpenHaptics\Developer\3.4.0\lib\Win32\ hl.lib hd.lib hdu.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Release\CustomShape.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\Release/CustomShape.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\CustomShape.lib" /MACHINE:X86 .\Release/CustomShape.obj
+         .\Release/HapticRings.obj
+         .\Release/HapticSphere.obj
+         CustomShape_VS2010.vcxproj -> C:\Users\Admin\Documents\unity-haptic-plugin\OpenHaptics\Developer\3.4.0\examples\HL\console\CustomShape\.\Release\CustomShape.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Release/CustomShape.exe;#1" /manifest .\Release\CustomShape.exe.intermediate.manifest
+       PostBuildEvent:
+         echo on
+         mkdir C:\Users\Admin\Documents\unity-haptic-plugin\OpenHaptics\Developer\3.4.0\examples\HL\console\\..\..\bin\Win32\HL
+         copy ".\Release\\CustomShape.exe" "C:\Users\Admin\Documents\unity-haptic-plugin\OpenHaptics\Developer\3.4.0\examples\HL\console\\..\..\bin\Win32\HL
+         :VCEnd
+         Sottodirectory o file C:\Users\Admin\Documents\unity-haptic-plugin\OpenHaptics\Developer\3.4.0\examples\HL\console\\..\..\bin\Win32\HL già esistente.
+                 1 file copiati.
+       FinalizeBuildStatus:
+         Deleting file ".\Release\CustomShape.unsuccessfulbuild".
+         Touching ".\Release\CustomShape.lastbuildstate".
+     1>Done Building Project "C:\Users\Admin\Documents\unity-haptic-plugin\OpenHaptics\Developer\3.4.0\examples\HL\console\CustomShape\CustomShape_VS2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.56

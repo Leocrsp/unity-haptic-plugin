@@ -118,10 +118,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AuxClass.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="RenderableClass.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AuxClass.h" />
     <ClInclude Include="header.h" />
+    <ClInclude Include="RenderableClass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
