@@ -2,6 +2,7 @@
 
 AuxClass::AuxClass()
 {
+
 }
 
 

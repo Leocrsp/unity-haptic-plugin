@@ -1,62 +1,8 @@
 ﻿  AuxClass.cpp
-c:\users\admin\documents\unity-haptic-plugin\unity plugin\header.h(8): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-c:\users\admin\documents\unity-haptic-plugin\openhaptics\developer\3.4.0\quickhaptics\header\QHWin32Class.h(58): warning C4273: 'qhStart' : inconsistent dll linkage
-          c:\users\admin\documents\unity-haptic-plugin\openhaptics\developer\3.4.0\quickhaptics\header\QHGLUTClass.h(41) : see previous definition of 'qhStart'
-c:\users\admin\documents\unity-haptic-plugin\unity plugin\header.h(29): error C2065: 'AuxClass' : undeclared identifier
-c:\users\admin\documents\unity-haptic-plugin\unity plugin\header.h(29): error C2065: 'aux' : undeclared identifier
-c:\users\admin\documents\unity-haptic-plugin\unity plugin\header.h(29): error C2182: 'init' : illegal use of type 'void'
-c:\users\admin\documents\unity-haptic-plugin\unity plugin\header.h(29): fatal error C1903: unable to recover from previous error(s); stopping compilation
   main.cpp
-c:\users\admin\documents\unity-haptic-plugin\unity plugin\header.h(8): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-c:\users\admin\documents\unity-haptic-plugin\openhaptics\developer\3.4.0\quickhaptics\header\QHWin32Class.h(58): warning C4273: 'qhStart' : inconsistent dll linkage
-          c:\users\admin\documents\unity-haptic-plugin\openhaptics\developer\3.4.0\quickhaptics\header\QHGLUTClass.h(41) : see previous definition of 'qhStart'
-main.cpp(145): error C2143: syntax error : missing ',' before ':'
-main.cpp(145): error C2530: 'object' : references must be initialized
-main.cpp(145): error C3531: 'object': a symbol whose type contains 'auto' must have an initializer
-main.cpp(145): error C2143: syntax error : missing ';' before '{'
-main.cpp(147): error C2228: left of '.second' must have class/struct/union
-          type is 'int'
-main.cpp(147): error C2228: left of '.m_stiffness' must have class/struct/union
-main.cpp(148): error C2228: left of '.second' must have class/struct/union
-          type is 'int'
-main.cpp(148): error C2228: left of '.m_damping' must have class/struct/union
-main.cpp(149): error C2228: left of '.second' must have class/struct/union
-          type is 'int'
-main.cpp(149): error C2228: left of '.m_staticFriction' must have class/struct/union
-main.cpp(150): error C2228: left of '.second' must have class/struct/union
-          type is 'int'
-main.cpp(150): error C2228: left of '.m_dynamicFriction' must have class/struct/union
-main.cpp(151): error C2228: left of '.second' must have class/struct/union
-          type is 'int'
-main.cpp(151): error C2228: left of '.m_popthrough' must have class/struct/union
-main.cpp(153): error C2228: left of '.second' must have class/struct/union
-          type is 'int'
-main.cpp(153): error C2228: left of '.m_id' must have class/struct/union
-main.cpp(157): error C2228: left of '.second' must have class/struct/union
-          type is 'int'
-main.cpp(157): error C2228: left of '.m_vertSize' must have class/struct/union
-main.cpp(159): error C2228: left of '.second' must have class/struct/union
-          type is 'int'
-main.cpp(159): error C2228: left of '.m_vertices' must have class/struct/union
-main.cpp(159): error C2228: left of '.second' must have class/struct/union
-          type is 'int'
-main.cpp(159): error C2228: left of '.m_vertices' must have class/struct/union
-main.cpp(159): error C2228: left of '.second' must have class/struct/union
-          type is 'int'
-main.cpp(159): error C2228: left of '.m_vertices' must have class/struct/union
   RenderableClass.cpp
-c:\users\admin\documents\unity-haptic-plugin\unity plugin\header.h(8): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-c:\users\admin\documents\unity-haptic-plugin\openhaptics\developer\3.4.0\quickhaptics\header\QHWin32Class.h(58): warning C4273: 'qhStart' : inconsistent dll linkage
-          c:\users\admin\documents\unity-haptic-plugin\openhaptics\developer\3.4.0\quickhaptics\header\QHGLUTClass.h(41) : see previous definition of 'qhStart'
-c:\users\admin\documents\unity-haptic-plugin\unity plugin\RenderableClass.h(4): error C2011: 'RenderableClass' : 'class' type redefinition
-          c:\users\admin\documents\unity-haptic-plugin\unity plugin\RenderableClass.h(4) : see declaration of 'RenderableClass'
-RenderableClass.cpp(5): error C2027: use of undefined type 'RenderableClass'
-          c:\users\admin\documents\unity-haptic-plugin\unity plugin\RenderableClass.h(4) : see declaration of 'RenderableClass'
-RenderableClass.cpp(5): error C2059: syntax error : ')'
-RenderableClass.cpp(6): error C2143: syntax error : missing ';' before '{'
-RenderableClass.cpp(6): error C2447: '{' : missing function header (old-style formal list?)
-RenderableClass.cpp(10): error C2027: use of undefined type 'RenderableClass'
-          c:\users\admin\documents\unity-haptic-plugin\unity plugin\RenderableClass.h(4) : see declaration of 'RenderableClass'
-RenderableClass.cpp(10): error C2059: syntax error : ')'
-RenderableClass.cpp(11): error C2143: syntax error : missing ';' before '{'
-RenderableClass.cpp(11): error C2447: '{' : missing function header (old-style formal list?)
+     Creating library C:\Users\Leo\Documents\repos\unity-haptic-plugin\Unity Plugin\x64\Release\Unity Plugin.lib and object C:\Users\Leo\Documents\repos\unity-haptic-plugin\Unity Plugin\x64\Release\Unity Plugin.exp
+  Generating code
+  All 178 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Unity Plugin.vcxproj -> C:\Users\Leo\Documents\repos\unity-haptic-plugin\Unity Plugin\x64\Release\Unity Plugin.dll

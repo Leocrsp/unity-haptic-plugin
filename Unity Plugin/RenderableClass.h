@@ -1,4 +1,11 @@
-#include "header.h"
+#ifndef RENDERABLE_CLASS
+#define RENDERABLE_CLASS
+
+#define _WINSOCKAPI_
+
+#include <GL/freeglut.h>
+#include <HD/hd.h>
+#include <HL/hl.h>
 
 class RenderableClass
 {
@@ -12,14 +19,15 @@ public:
 	int m_vertSize;
 	int m_triSize;
 
-	HDdouble m_stiffness;
-	HDdouble m_popthrough;
-	HDdouble m_damping;
-	HDdouble m_staticFriction;
-	HDdouble m_dynamicFriction;
-	
+	HDfloat m_stiffness;
+	HDfloat m_popthrough;
+	HDfloat m_damping;
+	HDfloat m_staticFriction;
+	HDfloat m_dynamicFriction;
 
 	/*Methods*/
 	RenderableClass();
 	~RenderableClass();
 };
+
+#endif

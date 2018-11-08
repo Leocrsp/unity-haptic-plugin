@@ -1,7 +1,12 @@
 #ifndef AUX_CLASS
 #define AUX_CLASS
 
-#include "header.h"
+//#define _WIN‡SOCKAPI_
+#include <Windows.h>
+#include <map>
+#include <HD/hd.h>
+#include <HL/hl.h>
+#include "RenderableClass.h"
 
 class AuxClass
 {

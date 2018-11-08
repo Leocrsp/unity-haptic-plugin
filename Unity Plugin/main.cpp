@@ -1,6 +1,6 @@
 #include "header.h"
 
-LEO_API void init(AuxClass* aux) {
+LEO_API void PluginInitialization(AuxClass* aux) {
 
 	aux = new AuxClass();
 	aux->m_hhd = hdInitDevice(HD_DEFAULT_DEVICE);
@@ -8,7 +8,7 @@ LEO_API void init(AuxClass* aux) {
 	HDErrorInfo error;
 	if (HD_DEVICE_ERROR(error = hdGetError()))
 	{
-		hduPrintError(stderr, &error, "Failed to initialize haptic device");
+		//hduPrintError(stderr, &error, "Failed to initialize haptic device");
 		fprintf(stderr, "\nPress any key to quit.\n");
 		getchar();
 		exit(-1);
@@ -23,7 +23,7 @@ LEO_API void init(AuxClass* aux) {
 
 }
 
-LEO_API void CleanUp(AuxClass* aux) {
+LEO_API void PluginCleanUp(AuxClass* aux) {
 
 	hlMakeCurrent(NULL);
 	hlDeleteContext(aux->m_hhlrc);
@@ -33,7 +33,7 @@ LEO_API void CleanUp(AuxClass* aux) {
 
 }
 
-LEO_API void AssignStiffness(AuxClass* aux, int id, double val) {
+LEO_API void AssignStiffness(AuxClass* aux, int id, float val) {
 
 	RenderableClass* object = &aux->m_objects[id];
 	if (object)
@@ -47,7 +47,7 @@ LEO_API void AssignStiffness(AuxClass* aux, int id, double val) {
 
 }
 
-LEO_API void AssignDamping(AuxClass* aux, int id, double val) {
+LEO_API void AssignDamping(AuxClass* aux, int id, float val) {
 
 	RenderableClass* object = &aux->m_objects[id];
 	if (object)
@@ -61,7 +61,7 @@ LEO_API void AssignDamping(AuxClass* aux, int id, double val) {
 
 }
 
-LEO_API void AssignDynamicFriction(AuxClass* aux, int id, double val) {
+LEO_API void AssignDynamicFriction(AuxClass* aux, int id, float val) {
 
 	RenderableClass* object = &aux->m_objects[id];
 	if (object)
@@ -75,7 +75,7 @@ LEO_API void AssignDynamicFriction(AuxClass* aux, int id, double val) {
 
 }
 
-LEO_API void AssignStaticFriction(AuxClass* aux, int id, double val) {
+LEO_API void AssignStaticFriction(AuxClass* aux, int id, float val) {
 
 	RenderableClass* object = &aux->m_objects[id];
 	if (object)
@@ -89,7 +89,7 @@ LEO_API void AssignStaticFriction(AuxClass* aux, int id, double val) {
 
 }
 
-LEO_API void AssignPopthrough(AuxClass* aux, int id, double val) {
+LEO_API void AssignPopthrough(AuxClass* aux, int id, float val) {
 
 	RenderableClass* object = &aux->m_objects[id];
 	if (object)
@@ -124,7 +124,7 @@ LEO_API void CreateObjectMesh(AuxClass* aux, int id, int* triangles, int triSize
 	/*If it doesnb't exist, create it*/
 	else {
 
-		aux->m_objects.insert(std::pair<int, RenderableClass>(id, new RenderableClass()));
+		aux->m_objects.insert(std::pair<int, RenderableClass>(id, RenderableClass()));
 		RenderableClass& object = aux->m_objects[id];
 		object.m_id = id;
 		object.m_triangles = triangles;
